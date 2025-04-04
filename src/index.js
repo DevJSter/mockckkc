@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client' // Updated import for React 18
 import ReactGA from 'react-ga'
 import { isMobile } from 'react-device-detect'
 import ThemeProvider, { GlobalStyle } from './Theme'
@@ -18,6 +18,7 @@ const GOOGLE_ANALYTICS_ID =
     ? process.env.REACT_APP_GOOGLE_ANALYTICS_ID
     : 'test'
 
+console.log('Google Analytics ID:', GOOGLE_ANALYTICS_ID) // Debugging log
 
 if (typeof GOOGLE_ANALYTICS_ID === 'string') {
   ReactGA.initialize(GOOGLE_ANALYTICS_ID, {
@@ -64,7 +65,8 @@ function Updaters() {
   )
 }
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root')) // Updated for React 18
+root.render(
   <ContextProviders>
     <Updaters />
     <ThemeProvider>
@@ -73,6 +75,5 @@ ReactDOM.render(
         <App />
       </>
     </ThemeProvider>
-  </ContextProviders>,
-  document.getElementById('root')
+  </ContextProviders>
 )
