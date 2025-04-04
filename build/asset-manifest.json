@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b2837404.chunk.js",
+    "main.js.map": "/static/js/main.b2837404.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0105f97.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0105f97.js.map",
+    "static/css/2.6620286d.chunk.css": "/static/css/2.6620286d.chunk.css",
+    "static/js/2.088fae7c.chunk.js": "/static/js/2.088fae7c.chunk.js",
+    "static/js/2.088fae7c.chunk.js.map": "/static/js/2.088fae7c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bf82d125e4fa1f284eca0cad6d863cf0.js": "/precache-manifest.bf82d125e4fa1f284eca0cad6d863cf0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6620286d.chunk.css.map": "/static/css/2.6620286d.chunk.css.map",
+    "static/js/2.088fae7c.chunk.js.LICENSE.txt": "/static/js/2.088fae7c.chunk.js.LICENSE.txt",
+    "static/media/eth.png": "/static/media/eth.5fc0c9bd.png",
+    "static/media/logo_white.svg": "/static/media/logo_white.6dca538a.svg",
+    "static/media/oboswap.svg": "/static/media/oboswap.cad8371a.svg",
+    "static/media/wordmark.svg": "/static/media/wordmark.deb66017.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0105f97.js",
+    "static/css/2.6620286d.chunk.css",
+    "static/js/2.088fae7c.chunk.js",
+    "static/js/main.b2837404.chunk.js"
+  ]
+}
